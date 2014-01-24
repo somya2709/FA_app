@@ -1,0 +1,437 @@
+﻿$axure.loadCurrentPage({
+  "url":"index.html",
+  "generationDate":new Date(1390591132882.5),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"4a5e5d5283cf4e919e7eaabc4f4e812b",
+    "type":"Axure:Page",
+    "name":"index",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"b102d2c8b4d04e2ea01cd92800385104",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":320,
+              "height":548}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"89055999e8f44c41a6d4ebf32f64d79f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":320,
+                  "height":548}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/index/u0.jpg"}},
+{
+          "id":"1448f0cf63124f4cb68158a1c4a53383",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":30,
+              "y":450},
+            "size":{
+              "width":120,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"Show post ad",
+                      "objectsToFades":[{
+                          "objectPath":["11544d86b29943739e1ac5da5dfa48be"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"7e5d3fed2597477f830796e7a1e46729",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":160,
+              "y":450},
+            "size":{
+              "width":120,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"Show listing",
+                      "objectsToFades":[{
+                          "objectPath":["d542851ca60e4fd9a9b3a47ce473182a"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"11544d86b29943739e1ac5da5dfa48be",
+          "label":"post ad",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":false,
+          "style":{
+            "size":{
+              "width":10,
+              "height":10},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":true,
+          "propagate":false,
+          "diagrams":[{
+              "id":"b4f61e2339584f75b4a60e4b56b96935",
+              "label":"State1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"e78c665425754075a6b88544e2e23eb3",
+                  "label":"",
+                  "parentDynamicPanel":"11544d86b29943739e1ac5da5dfa48be",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":320,
+                      "height":548}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"5badc4dbd586481c9f8b59e51892c098",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"11544d86b29943739e1ac5da5dfa48be",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":320,
+                          "height":548}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/index/u5.png"}},
+{
+                  "id":"df40b01ea89c41658018a7bbd468ce9f",
+                  "label":"",
+                  "parentDynamicPanel":"11544d86b29943739e1ac5da5dfa48be",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":0,
+                      "y":130},
+                    "size":{
+                      "width":320,
+                      "height":50}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set post ad to State2",
+                              "panelsToStates":[{
+                                  "panelPath":["11544d86b29943739e1ac5da5dfa48be"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":2,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true},
+{
+                  "id":"e320fc11a2434d8ba9a400e79a5556e1",
+                  "label":"",
+                  "parentDynamicPanel":"11544d86b29943739e1ac5da5dfa48be",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":10,
+                      "y":20},
+                    "size":{
+                      "width":40,
+                      "height":40}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"Hide post ad",
+                              "objectsToFades":[{
+                                  "objectPath":["11544d86b29943739e1ac5da5dfa48be"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]}]}]}},
+                  "tabbable":true}]},
+{
+              "id":"8f78409348a2482ca7c6c54c75abac02",
+              "label":"State2",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"6ac3f06b956645868bee25541eee9f7e",
+                  "label":"",
+                  "parentDynamicPanel":"11544d86b29943739e1ac5da5dfa48be",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":320,
+                      "height":548}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"59ddc6095cff4cf1afa01f24d8568532",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"11544d86b29943739e1ac5da5dfa48be",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":320,
+                          "height":548}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/index/u9.png"}},
+{
+                  "id":"08dc2bcb07094fa7a7d2dbfc638e7d45",
+                  "label":"",
+                  "parentDynamicPanel":"11544d86b29943739e1ac5da5dfa48be",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":10,
+                      "y":20},
+                    "size":{
+                      "width":30,
+                      "height":40}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set post ad to State1",
+                              "panelsToStates":[{
+                                  "panelPath":["11544d86b29943739e1ac5da5dfa48be"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":1,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true}]}]},
+{
+          "id":"d542851ca60e4fd9a9b3a47ce473182a",
+          "label":"listing",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":false,
+          "style":{
+            "size":{
+              "width":10,
+              "height":10},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":true,
+          "propagate":false,
+          "diagrams":[{
+              "id":"2337c7f3afce41f0965f621fcf8016db",
+              "label":"State1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"c90d3c7137f244249a71cb5d7940d7fd",
+                  "label":"",
+                  "parentDynamicPanel":"d542851ca60e4fd9a9b3a47ce473182a",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":320,
+                      "height":548}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"836c5bad8f55428199bc50bde585840d",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"d542851ca60e4fd9a9b3a47ce473182a",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":320,
+                          "height":548}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/index/u13.jpg"}},
+{
+                  "id":"f1bf7aeedb184ff987bcde11d6dfcf8b",
+                  "label":"",
+                  "parentDynamicPanel":"d542851ca60e4fd9a9b3a47ce473182a",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":10,
+                      "y":30},
+                    "size":{
+                      "width":30,
+                      "height":30}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"Hide listing",
+                              "objectsToFades":[{
+                                  "objectPath":["d542851ca60e4fd9a9b3a47ce473182a"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]},
+{
+                              "action":"fadeWidget",
+                              "description":"Hide post ad",
+                              "objectsToFades":[{
+                                  "objectPath":["11544d86b29943739e1ac5da5dfa48be"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]}]}]}},
+                  "tabbable":true}]}]}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "b102d2c8b4d04e2ea01cd92800385104":{
+      "scriptId":"u0"},
+    "89055999e8f44c41a6d4ebf32f64d79f":{
+      "scriptId":"u1"},
+    "1448f0cf63124f4cb68158a1c4a53383":{
+      "scriptId":"u2"},
+    "7e5d3fed2597477f830796e7a1e46729":{
+      "scriptId":"u3"},
+    "11544d86b29943739e1ac5da5dfa48be":{
+      "scriptId":"u4"},
+    "e78c665425754075a6b88544e2e23eb3":{
+      "scriptId":"u5"},
+    "5badc4dbd586481c9f8b59e51892c098":{
+      "scriptId":"u6"},
+    "df40b01ea89c41658018a7bbd468ce9f":{
+      "scriptId":"u7"},
+    "e320fc11a2434d8ba9a400e79a5556e1":{
+      "scriptId":"u8"},
+    "6ac3f06b956645868bee25541eee9f7e":{
+      "scriptId":"u9"},
+    "59ddc6095cff4cf1afa01f24d8568532":{
+      "scriptId":"u10"},
+    "08dc2bcb07094fa7a7d2dbfc638e7d45":{
+      "scriptId":"u11"},
+    "d542851ca60e4fd9a9b3a47ce473182a":{
+      "scriptId":"u12"},
+    "c90d3c7137f244249a71cb5d7940d7fd":{
+      "scriptId":"u13"},
+    "836c5bad8f55428199bc50bde585840d":{
+      "scriptId":"u14"},
+    "f1bf7aeedb184ff987bcde11d6dfcf8b":{
+      "scriptId":"u15"}}});
