@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"index.html",
-  "generationDate":new Date(1390646528456.46),
+  "generationDate":new Date(1390649171501.21),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -30,7 +30,7 @@
 },
     "diagram":{
       "objects":[{
-          "id":"b102d2c8b4d04e2ea01cd92800385104",
+          "id":"31e7b138a00b4337830b258ed7157441",
           "label":"",
           "type":"imageBox",
           "styleType":"imageBox",
@@ -38,11 +38,15 @@
           "style":{
             "size":{
               "width":320,
-              "height":548}},
+              "height":480},
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
           "adaptiveStyles":{
 },
           "objects":[{
-              "id":"89055999e8f44c41a6d4ebf32f64d79f",
+              "id":"d028e90b19ce41199540a047563117d8",
               "label":"",
               "isContained":true,
               "type":"richTextPanel",
@@ -51,11 +55,15 @@
               "style":{
                 "size":{
                   "width":320,
-                  "height":548}},
+                  "height":480},
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/index/u0.jpg"}},
+            "normal~":"images/index/u0.png"}},
 {
           "id":"1448f0cf63124f4cb68158a1c4a53383",
           "label":"",
@@ -64,8 +72,8 @@
           "visible":true,
           "style":{
             "location":{
-              "x":30,
-              "y":450},
+              "x":38,
+              "y":422},
             "size":{
               "width":120,
               "height":50}},
@@ -96,7 +104,7 @@
           "style":{
             "location":{
               "x":160,
-              "y":450},
+              "y":421},
             "size":{
               "width":120,
               "height":50}},
@@ -126,8 +134,8 @@
           "visible":false,
           "style":{
             "size":{
-              "width":10,
-              "height":10},
+              "width":320,
+              "height":481},
             "visible":false},
           "adaptiveStyles":{
 },
@@ -139,7 +147,7 @@
               "label":"State1",
               "type":"Axure:PanelDiagram",
               "objects":[{
-                  "id":"e78c665425754075a6b88544e2e23eb3",
+                  "id":"cea59d7afbf64e3daa7d3d747ae43d3c",
                   "label":"",
                   "parentDynamicPanel":"11544d86b29943739e1ac5da5dfa48be",
                   "type":"imageBox",
@@ -148,11 +156,15 @@
                   "style":{
                     "size":{
                       "width":320,
-                      "height":548}},
+                      "height":481},
+                    "rotation":"0",
+                    "textRotation":"0",
+                    "borderWidth":"0",
+                    "cornerRadiusTopLeft":"0"},
                   "adaptiveStyles":{
 },
                   "objects":[{
-                      "id":"5badc4dbd586481c9f8b59e51892c098",
+                      "id":"b5c37289e8c54661b1af4a974ba0060c",
                       "label":"",
                       "isContained":true,
                       "parentDynamicPanel":"11544d86b29943739e1ac5da5dfa48be",
@@ -162,7 +174,11 @@
                       "style":{
                         "size":{
                           "width":320,
-                          "height":548}},
+                          "height":481},
+                        "rotation":"0",
+                        "textRotation":"0",
+                        "borderWidth":"0",
+                        "cornerRadiusTopLeft":"0"},
                       "adaptiveStyles":{
 }}],
                   "images":{
@@ -243,7 +259,7 @@
               "label":"State2",
               "type":"Axure:PanelDiagram",
               "objects":[{
-                  "id":"6ac3f06b956645868bee25541eee9f7e",
+                  "id":"f9a5bb389029481eb1a67fce7c4840e9",
                   "label":"",
                   "parentDynamicPanel":"11544d86b29943739e1ac5da5dfa48be",
                   "type":"imageBox",
@@ -252,11 +268,15 @@
                   "style":{
                     "size":{
                       "width":320,
-                      "height":548}},
+                      "height":480},
+                    "rotation":"0",
+                    "textRotation":"0",
+                    "borderWidth":"0",
+                    "cornerRadiusTopLeft":"0"},
                   "adaptiveStyles":{
 },
                   "objects":[{
-                      "id":"59ddc6095cff4cf1afa01f24d8568532",
+                      "id":"73feee42991f4af4a801eaf1016dda87",
                       "label":"",
                       "isContained":true,
                       "parentDynamicPanel":"11544d86b29943739e1ac5da5dfa48be",
@@ -266,7 +286,11 @@
                       "style":{
                         "size":{
                           "width":320,
-                          "height":548}},
+                          "height":480},
+                        "rotation":"0",
+                        "textRotation":"0",
+                        "borderWidth":"0",
+                        "cornerRadiusTopLeft":"0"},
                       "adaptiveStyles":{
 }}],
                   "images":{
@@ -318,8 +342,8 @@
           "visible":false,
           "style":{
             "size":{
-              "width":10,
-              "height":10},
+              "width":320,
+              "height":548},
             "visible":false},
           "adaptiveStyles":{
 },
@@ -331,7 +355,7 @@
               "label":"State1",
               "type":"Axure:PanelDiagram",
               "objects":[{
-                  "id":"c90d3c7137f244249a71cb5d7940d7fd",
+                  "id":"609d3edd9abb4a66872c1e7867fe2789",
                   "label":"",
                   "parentDynamicPanel":"d542851ca60e4fd9a9b3a47ce473182a",
                   "type":"imageBox",
@@ -340,11 +364,15 @@
                   "style":{
                     "size":{
                       "width":320,
-                      "height":548}},
+                      "height":480},
+                    "rotation":"0",
+                    "textRotation":"0",
+                    "borderWidth":"0",
+                    "cornerRadiusTopLeft":"0"},
                   "adaptiveStyles":{
 },
                   "objects":[{
-                      "id":"836c5bad8f55428199bc50bde585840d",
+                      "id":"71bf1c3483774403a969a47b30a22be7",
                       "label":"",
                       "isContained":true,
                       "parentDynamicPanel":"d542851ca60e4fd9a9b3a47ce473182a",
@@ -354,11 +382,15 @@
                       "style":{
                         "size":{
                           "width":320,
-                          "height":548}},
+                          "height":480},
+                        "rotation":"0",
+                        "textRotation":"0",
+                        "borderWidth":"0",
+                        "cornerRadiusTopLeft":"0"},
                       "adaptiveStyles":{
 }}],
                   "images":{
-                    "normal~":"images/index/u13.jpg"}},
+                    "normal~":"images/index/u13.png"}},
 {
                   "id":"f1bf7aeedb184ff987bcde11d6dfcf8b",
                   "label":"",
@@ -403,9 +435,9 @@
   "masters":{
 },
   "objectPaths":{
-    "b102d2c8b4d04e2ea01cd92800385104":{
+    "31e7b138a00b4337830b258ed7157441":{
       "scriptId":"u0"},
-    "89055999e8f44c41a6d4ebf32f64d79f":{
+    "d028e90b19ce41199540a047563117d8":{
       "scriptId":"u1"},
     "1448f0cf63124f4cb68158a1c4a53383":{
       "scriptId":"u2"},
@@ -413,25 +445,25 @@
       "scriptId":"u3"},
     "11544d86b29943739e1ac5da5dfa48be":{
       "scriptId":"u4"},
-    "e78c665425754075a6b88544e2e23eb3":{
+    "cea59d7afbf64e3daa7d3d747ae43d3c":{
       "scriptId":"u5"},
-    "5badc4dbd586481c9f8b59e51892c098":{
+    "b5c37289e8c54661b1af4a974ba0060c":{
       "scriptId":"u6"},
     "df40b01ea89c41658018a7bbd468ce9f":{
       "scriptId":"u7"},
     "e320fc11a2434d8ba9a400e79a5556e1":{
       "scriptId":"u8"},
-    "6ac3f06b956645868bee25541eee9f7e":{
+    "f9a5bb389029481eb1a67fce7c4840e9":{
       "scriptId":"u9"},
-    "59ddc6095cff4cf1afa01f24d8568532":{
+    "73feee42991f4af4a801eaf1016dda87":{
       "scriptId":"u10"},
     "08dc2bcb07094fa7a7d2dbfc638e7d45":{
       "scriptId":"u11"},
     "d542851ca60e4fd9a9b3a47ce473182a":{
       "scriptId":"u12"},
-    "c90d3c7137f244249a71cb5d7940d7fd":{
+    "609d3edd9abb4a66872c1e7867fe2789":{
       "scriptId":"u13"},
-    "836c5bad8f55428199bc50bde585840d":{
+    "71bf1c3483774403a969a47b30a22be7":{
       "scriptId":"u14"},
     "f1bf7aeedb184ff987bcde11d6dfcf8b":{
       "scriptId":"u15"}}});
